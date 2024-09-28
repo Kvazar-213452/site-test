@@ -1,3 +1,6 @@
+<?php
+include $_SERVER['DOCUMENT_ROOT'] . '/include.php'; 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,4 +11,5 @@
 <body>
     ddd
 </body>
+<script src="<?php echo $domen_name; ?>/"></script>
 </html>
