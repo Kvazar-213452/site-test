@@ -1,3 +1,24 @@
 body{
-    background-color: azure;
+    background: linear-gradient(to right, #ffffff, #dfdfdf);
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link::after {
+    background-color: #222222;
+}
+
+.main_tetx,
+.canter_tetx{
+    color: rgb(23, 23, 23);
+}
+
+.nav-link, .navbar-brand{
+    color: rgb(18, 18, 18) !important;
+}
+
+.ssssq{
+    filter: invert(0%);
 }
