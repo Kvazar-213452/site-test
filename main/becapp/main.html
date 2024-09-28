@@ -11,12 +11,11 @@
     <link href="Carousel Template for Bootstrap_files/bootstrap.min.css" rel="stylesheet">
     <link href="Carousel Template for Bootstrap_files/carousel.css" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" id="tema" href="style.css">
   </head>
   <body>
     <header>
-      <nav class="navbar menu_bg navbar-expand-md navbar-dark fixed-top">
-        <a class="navbar-brand" href=""></a>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="">Ужгородський ліцей "Лідер"</a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -27,37 +26,65 @@
             <li class="nav-item active"><a class="nav-link" href="">Наша команда</a></li>
             <li class="nav-item active"><a class="nav-link" href="">Освітній процес</a></li>
             <li class="nav-item active"><a class="nav-link" href="">Документація</a></li>
-            <div class="sasw">
-              <label class="switch">
-                <span class="sun"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="#ffd43b"><circle r="5" cy="12" cx="12"></circle><path d="m21 13h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm-17 0h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm13.66-5.66a1 1 0 0 1 -.66-.29 1 1 0 0 1 0-1.41l.71-.71a1 1 0 1 1 1.41 1.41l-.71.71a1 1 0 0 1 -.75.29zm-12.02 12.02a1 1 0 0 1 -.71-.29 1 1 0 0 1 0-1.41l.71-.66a1 1 0 0 1 1.41 1.41l-.71.71a1 1 0 0 1 -.7.24zm6.36-14.36a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm0 17a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm-5.66-14.66a1 1 0 0 1 -.7-.29l-.71-.71a1 1 0 0 1 1.41-1.41l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.29zm12.02 12.02a1 1 0 0 1 -.7-.29l-.66-.71a1 1 0 0 1 1.36-1.36l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.24z"></path></g></svg></span>
-                <span class="moon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="m223.5 32c-123.5 0-223.5 100.3-223.5 224s100 224 223.5 224c60.6 0 115.5-24.2 155.8-63.4 5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6-96.9 0-175.5-78.8-175.5-176 0-65.8 36-123.1 89.3-153.3 6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"></path></svg></span>
-                <input type="checkbox" class="input">
-                <span class="slider"></span>
-            </label>
-            </div>
           </ul>
         </div>
       </nav>
     </header>
 
     <main role="main">
-      <br>
-      <div class="main_tetx">Ужгородський ліцей "Лідер"</div>
-      <p class="canter_tetx">
-        guns.lol is your go-to for modern, feature-rich biolinks and fast, secure file hosting. <br> Everything you need — right here.
-      </p>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br>
-      <div class="senter">
-      <iframe class="video_s" width="928" height="522" src="https://www.youtube.com/embed/HjwFiSLix3Y" title="Ліцей &quot;Лідер&quot; промо2018" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-      </iframe></div>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-      <div class="hexagon"></div>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <div class="acrivate_cursor"><li data-target="#myCarousel" data-slide-to="0" class="active"></li></div>
+          <div class="acrivate_cursor"><li data-target="#myCarousel" data-slide-to="1"></li></div>
+          <div class="acrivate_cursor"><li data-target="#myCarousel" data-slide-to="2"></li></div>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+            <div class="container">
+              <img class="img_carsel" src="img/s.5.jpg">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+            <div class="container">
+              <img class="img_carsel" src="img/s.6.jpg">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+            <div class="container">
+              <img class="img_carsel" src="img/s.7.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
 
-     
+      <div class="container marketing">
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <h2>Heading</h2>
+            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+            <p><a class="btn btn-secondary" href="" role="button">View details »</a></p>
+          </div>
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <h2>Heading</h2>
+            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            <p><a class="btn btn-secondary" href="" role="button">View details »</a></p>
+          </div>
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <h2>Heading</h2>
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p><a class="btn btn-secondary" href="" role="button">View details »</a></p>
+          </div>
+        </div>
 
         <hr class="featurette-divider">
 
-        <div class="row featurette section_global_a">
+        <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
@@ -69,7 +96,7 @@
 
         <hr class="featurette-divider">
 
-        <div class="row featurette section_global_a">
+        <div class="row featurette">
           <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
@@ -81,7 +108,7 @@
 
         <hr class="featurette-divider">
 
-        <div class="row featurette section_global_a">
+        <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
@@ -104,6 +131,5 @@
     <script src="Carousel Template for Bootstrap_files/popper.min.js.завантаження"></script>
     <script src="Carousel Template for Bootstrap_files/bootstrap.min.js.завантаження"></script>
     <script src="Carousel Template for Bootstrap_files/holder.min.js.завантаження"></script>
-    <script src="main.js"></script>
 </body>
 </html>

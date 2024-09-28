@@ -1,0 +1,18 @@
+  <div id="myCarousel" class="carousel slide section_global_a" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <div class="acrivate_cursor"><li data-target="#myCarousel" data-slide-to="0" class="active"></li></div>
+          <div class="acrivate_cursor"><li data-target="#myCarousel" data-slide-to="1"></li></div>
+          <div class="acrivate_cursor"><li data-target="#myCarousel" data-slide-to="2"></li></div>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container"><img class="img_carsel" src="img/s.5.jpg"></div>
+          </div>
+          <div class="carousel-item">
+            <div class="container"><img class="img_carsel" src="img/s.6.jpg"></div>
+          </div>
+          <div class="carousel-item">
+            <div class="container"><img class="img_carsel" src="img/s.7.jpg"></div>
+          </div>
+        </div>
+      </div>
