@@ -19,6 +19,7 @@ body{
     color: rgb(228, 228, 228) !important;
 }
 
-.ssssq{
+.ssssq,
+.ssssq1{
     filter: invert(100%);
 }
