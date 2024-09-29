@@ -23,3 +23,41 @@ body{
 .ssssq1{
     filter: invert(100%);
 }
+
+.scroll-to-top {
+    filter: invert(10%);
+}
+
+.navbar{
+    background-color: #1b1b1b;
+}
+
+body {
+    color: #ffffff !important;
+}
+
+.footer {
+    background-color: #1b1b1b;
+}
+
+.footer-col ul li a {
+    color: #ffffff;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+}
+
+.footer-col .social-links a {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+.footer-col h4 {
+    color: #ffffff;
+}
